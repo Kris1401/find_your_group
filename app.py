@@ -368,7 +368,6 @@ with tab2:
                     yaxis_title="Liczba osób",
                 )
                 st.plotly_chart(fig)
-            
 
         with c1:
             if not same_cluster_df.empty and "fav_animals" in same_cluster_df.columns:
